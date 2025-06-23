@@ -99,8 +99,3 @@ Ce projet utilise :
 ---
 
 **Développé avec ❤️ et 🌱 pour un avenir plus durable**
-
-## 📞 Contact du Projet
-
-- **URL de développement** : https://lovable.dev/projects/9c12ea09-de0c-4bb8-b876-05b2f6fe69f8
-- **Technologies** : React + Vite + TypeScript + Tailwind CSS + Shadcn/UI
