@@ -16,7 +16,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
+    --primary: 142 76% 36%;
     --primary-foreground: 210 40% 98%;
 
     --secondary: 210 40% 96.1%;
@@ -33,7 +33,7 @@
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --ring: 142 76% 36%;
 
     --radius: 0.5rem;
 
@@ -94,14 +94,30 @@
 
 @layer utilities {
   .gradient-text {
-    @apply bg-gradient-to-r from-spark-600 to-purple-600 bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-nature-600 to-ocean-600 bg-clip-text text-transparent;
   }
   
   .gradient-bg {
-    @apply bg-gradient-to-br from-spark-50 via-purple-50 to-blue-50;
+    @apply bg-gradient-to-br from-nature-50 via-earth-50 to-ocean-50;
+  }
+  
+  .nature-gradient {
+    @apply bg-gradient-to-r from-nature-500 to-nature-600;
+  }
+  
+  .earth-gradient {
+    @apply bg-gradient-to-r from-earth-500 to-earth-600;
+  }
+  
+  .ocean-gradient {
+    @apply bg-gradient-to-r from-ocean-500 to-ocean-600;
   }
   
   .card-gradient {
-    @apply bg-gradient-to-br from-white to-spark-50/50;
+    @apply bg-gradient-to-br from-white to-nature-50/30;
+  }
+  
+  .eco-shadow {
+    @apply shadow-lg shadow-nature-200/20;
   }
 }
