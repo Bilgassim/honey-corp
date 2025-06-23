@@ -92,12 +92,14 @@ const SolutionsSection = () => {
                     </li>
                   ))}
                 </ul>
-                <Button 
-                  variant="outline" 
-                  className="w-full border-nature-300 text-nature-700 hover:bg-nature-50 transition-colors"
-                >
-                  En savoir plus
-                </Button>
+                <a href="#contact">
+                  <Button 
+                    variant="outline" 
+                    className="w-full border-nature-300 text-nature-700 hover:bg-nature-50 transition-colors"
+                  >
+                    En savoir plus
+                  </Button>
+                </a>
               </CardContent>
             </Card>
           ))}
@@ -114,12 +116,16 @@ const SolutionsSection = () => {
               parfaitement adaptée à vos besoins et objectifs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button className="nature-gradient text-white hover:shadow-lg transition-all duration-300">
-                Consultation gratuite
-              </Button>
-              <Button variant="outline" className="border-nature-300 text-nature-700 hover:bg-nature-50">
-                Télécharger notre brochure
-              </Button>
+              <a href="#contact">
+                <Button className="nature-gradient text-white hover:shadow-lg transition-all duration-300">
+                  Consultation gratuite
+                </Button>
+              </a>
+              <a href="#contact">
+                <Button variant="outline" className="border-nature-300 text-nature-700 hover:bg-nature-50">
+                  Télécharger notre brochure
+                </Button>
+              </a>
             </div>
           </div>
         </div>

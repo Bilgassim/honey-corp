@@ -1,6 +1,5 @@
 
 import { Button } from '@/components/ui/button';
-import { ArrowDown } from 'lucide-react';
 
 const HeroSection = () => {
   return (
@@ -34,12 +33,16 @@ const HeroSection = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
-            <Button size="lg" className="nature-gradient hover:shadow-xl transition-all duration-300 text-white px-8 py-4 text-lg">
-              Découvrir nos solutions
-            </Button>
-            <Button variant="outline" size="lg" className="border-nature-300 text-nature-700 hover:bg-nature-50 px-8 py-4 text-lg">
-              Demander un devis gratuit
-            </Button>
+            <a href="#solutions">
+              <Button size="lg" className="nature-gradient hover:shadow-xl transition-all duration-300 text-white px-8 py-4 text-lg">
+                Découvrir nos solutions
+              </Button>
+            </a>
+            <a href="#contact">
+              <Button variant="outline" size="lg" className="border-nature-300 text-nature-700 hover:bg-nature-50 px-8 py-4 text-lg">
+                Demander un devis gratuit
+              </Button>
+            </a>
           </div>
 
           {/* Social proof */}
@@ -68,13 +71,6 @@ const HeroSection = () => {
               <div className="text-sm text-gray-600">Énergie renouvelable</div>
             </div>
           </div>
-        </div>
-
-        {/* Scroll indicator */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-          <a href="#about" className="text-gray-400 hover:text-nature-600 transition-colors">
-            <ArrowDown size={24} />
-          </a>
         </div>
       </div>
     </section>
