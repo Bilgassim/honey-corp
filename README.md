@@ -3,6 +3,9 @@
 
 Un site web moderne et performant pour HoneyCorp, spécialisée dans la transition écologique et l'énergie verte pour les start-ups innovantes.
 
+<img width="664" alt="Image" src="https://github.com/user-attachments/assets/0d06930c-319b-4909-9f46-dc444cd46a13" />
+<img width="670" alt="Image" src="https://github.com/user-attachments/assets/4fb49652-f1b2-4890-8b5f-d2b99993694f" />
+
 ## ✨ Fonctionnalités
 
 ### 🎨 Design & UX
