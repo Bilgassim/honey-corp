@@ -1,73 +1,103 @@
-# Welcome to your Lovable project
 
-## Project info
+# 🍯 HoneyCorp - Solutions Éco-responsables pour Start-ups
 
-**URL**: https://lovable.dev/projects/9c12ea09-de0c-4bb8-b876-05b2f6fe69f8
+Un site web moderne et performant pour HoneyCorp, spécialisée dans la transition écologique et l'énergie verte pour les start-ups innovantes.
 
-## How can I edit this code?
+## ✨ Fonctionnalités
 
-There are several ways of editing your application.
+### 🎨 Design & UX
+- **Design éco-responsable** avec palette de couleurs naturelles (nature, earth, ocean)
+- **Animations subtiles** : fade-in, float, pulse-soft pour une expérience fluide
+- **Interface responsive** optimisée pour mobile, tablette et desktop
+- **Navigation fluide** avec ancres vers les sections appropriées
 
-**Use Lovable**
+### 🚀 Technologies Modernes
+- **React 18** avec TypeScript pour un code robuste
+- **Vite** pour un développement ultra-rapide
+- **Tailwind CSS** avec système de design personnalisé
+- **Shadcn/UI** pour des composants élégants et accessibles
+- **Lucide React** pour des icônes modernes
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/9c12ea09-de0c-4bb8-b876-05b2f6fe69f8) and start prompting.
+### 🌱 Sections du Site
+- **Hero Section** : Présentation impactante avec métriques clés
+- **Solutions** : Cartes interactives présentant les services éco-responsables
+- **À propos** : Mission et vision de HoneyCorp
+- **Témoignages** : Social proof des start-ups clientes
+- **Contact** : Formulaire de demande de devis
 
-Changes made via Lovable will be committed automatically to this repo.
+### 🎯 Optimisations
+- **Performance** : Chargement rapide avec Vite
+- **SEO Ready** : Structure sémantique optimisée
+- **Accessibilité** : Composants conformes aux standards
+- **Animations GPU** : Transitions fluides sans impact performance
 
-**Use your preferred IDE**
+## 🛠️ Installation et Développement
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+```bash
+# Cloner le projet
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Installer les dépendances
+cd honeycorp-website
+npm install
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Lancer le serveur de développement
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## 🎨 Système de Design
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Palette de Couleurs
+- **Nature** : Verts naturels (50-950)
+- **Earth** : Tons terreux et chauds (50-950)
+- **Ocean** : Bleus océaniques (50-950)
 
-**Use GitHub Codespaces**
+### Composants Personnalisés
+- **Gradients éco-responsables** : `nature-gradient`, `earth-gradient`, `ocean-gradient`
+- **Ombres douces** : `eco-shadow` pour un style naturel
+- **Animations fluides** : `animate-float`, `animate-pulse-soft`
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📱 Responsive Design
 
-## What technologies are used for this project?
+- **Mobile First** : Optimisé pour les petits écrans
+- **Breakpoints Tailwind** : sm, md, lg, xl, 2xl
+- **Navigation adaptative** : Menu hamburger sur mobile
+- **Grilles flexibles** : Adaptation automatique du contenu
 
-This project is built with:
+## 🔗 Navigation Intelligente
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Tous les liens pointent vers les sections appropriées :
+- Logo → #home
+- Navigation → Sections correspondantes (#about, #solutions, etc.)
+- CTA buttons → #contact ou #solutions
+- Scroll fluide activé
 
-## How can I deploy this project?
+## 🚀 Déploiement
 
-Simply open [Lovable](https://lovable.dev/projects/9c12ea09-de0c-4bb8-b876-05b2f6fe69f8) and click on Share -> Publish.
+Le projet peut être déployé sur :
+- **Lovable** (déploiement en un clic)
+- **Vercel/Netlify** (déploiement automatique via Git)
+- **Serveur statique** (build avec `npm run build`)
 
-## Can I connect a custom domain to my Lovable project?
+## 📊 Métriques du Projet
 
-Yes, you can!
+- **Composants** : Architecture modulaire avec 7+ composants
+- **Performance** : Optimisé pour Core Web Vitals
+- **TypeScript** : 100% typé pour une meilleure maintenabilité
+- **Responsive** : Compatible tous devices
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 🤝 Contribution
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Ce projet utilise :
+- **ESLint** pour la qualité du code
+- **Prettier** pour le formatage
+- **TypeScript** pour la sécurité des types
+
+---
+
+**Développé avec ❤️ et 🌱 pour un avenir plus durable**
+
+## 📞 Contact du Projet
+
+- **URL de développement** : https://lovable.dev/projects/9c12ea09-de0c-4bb8-b876-05b2f6fe69f8
+- **Technologies** : React + Vite + TypeScript + Tailwind CSS + Shadcn/UI
